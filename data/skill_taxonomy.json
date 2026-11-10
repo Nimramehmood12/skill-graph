@@ -1,0 +1,211 @@
+{
+  "skills": {
+    "Python": {
+      "category": "Programming",
+      "prerequisites": [],
+      "difficulty": 2,
+      "estimated_hours": 40
+    },
+    "JavaScript": {
+      "category": "Programming",
+      "prerequisites": [],
+      "difficulty": 2,
+      "estimated_hours": 40
+    },
+    "SQL": {
+      "category": "Programming",
+      "prerequisites": [],
+      "difficulty": 2,
+      "estimated_hours": 30
+    },
+    "Git": {
+      "category": "Tooling",
+      "prerequisites": [],
+      "difficulty": 1,
+      "estimated_hours": 10
+    },
+    "Linux": {
+      "category": "Tooling",
+      "prerequisites": [],
+      "difficulty": 3,
+      "estimated_hours": 30
+    },
+
+    "NumPy": {
+      "category": "Data/ML",
+      "prerequisites": ["Python"],
+      "difficulty": 2,
+      "estimated_hours": 20
+    },
+    "Pandas": {
+      "category": "Data/ML",
+      "prerequisites": ["Python", "NumPy"],
+      "difficulty": 2,
+      "estimated_hours": 25
+    },
+    "Matplotlib": {
+      "category": "Data/ML",
+      "prerequisites": ["Python", "NumPy"],
+      "difficulty": 2,
+      "estimated_hours": 15
+    },
+    "Statistics": {
+      "category": "Data/ML",
+      "prerequisites": [],
+      "difficulty": 3,
+      "estimated_hours": 40
+    },
+    "Machine Learning": {
+      "category": "Data/ML",
+      "prerequisites": ["Python", "NumPy", "Pandas", "Statistics"],
+      "difficulty": 4,
+      "estimated_hours": 80
+    },
+    "Scikit-Learn": {
+      "category": "Data/ML",
+      "prerequisites": ["Machine Learning", "Pandas"],
+      "difficulty": 3,
+      "estimated_hours": 30
+    },
+    "Deep Learning": {
+      "category": "Data/ML",
+      "prerequisites": ["Machine Learning", "NumPy"],
+      "difficulty": 5,
+      "estimated_hours": 100
+    },
+    "PyTorch": {"category": "Data/ML",
+    "prerequisites": ["Deep Learning", "Python"],
+    "difficulty": 4,
+    "estimated_hours": 60
+    },
+    "TensorFlow": {
+      "category": "Data/ML",
+      "prerequisites": ["Deep Learning", "Python"],
+      "difficulty": 4,
+      "estimated_hours": 60
+    },
+    "NLP": {
+      "category": "Data/ML",
+      "prerequisites": ["Deep Learning", "Python"],
+      "difficulty": 4,
+      "estimated_hours": 50
+    },
+    "Computer Vision": {
+      "category": "Data/ML",
+      "prerequisites": ["Deep Learning", "NumPy"],
+      "difficulty": 4,
+      "estimated_hours": 50
+    },
+
+    "Flask": {
+      "category": "Backend",
+      "prerequisites": ["Python"],
+      "difficulty": 2,
+      "estimated_hours": 20
+    },
+    "FastAPI": {
+      "category": "Backend",
+      "prerequisites": ["Python", "Flask"],
+      "difficulty": 3,
+      "estimated_hours": 25
+    },
+    "REST APIs": {
+      "category": "Backend",
+      "prerequisites": ["Python"],
+      "difficulty": 3,
+      "estimated_hours": 25
+    },
+    "Node.js": {
+      "category": "Backend",
+      "prerequisites": ["JavaScript"],
+      "difficulty": 3,
+      "estimated_hours": 30
+    },
+    "Express": {
+      "category": "Backend",
+      "prerequisites": ["Node.js"],
+      "difficulty": 2,
+      "estimated_hours": 15
+    },
+    "Databases": {
+      "category": "Backend",
+      "prerequisites": ["SQL"],
+      "difficulty": 3,
+      "estimated_hours": 40
+    },
+    "Redis": {
+      "category": "Backend",
+      "prerequisites": ["Databases"],
+      "difficulty": 3,
+      "estimated_hours": 15
+    },
+    "Microservices": {
+      "category": "Backend",
+      "prerequisites": ["REST APIs", "Databases"],
+      "difficulty": 4,
+      "estimated_hours": 50
+    },
+    "Distributed Systems": {
+      "category": "Backend",
+      "prerequisites": ["Microservices", "Redis"],
+      "difficulty": 5,
+      "estimated_hours": 80
+    },
+
+    "Docker": {
+      "category": "DevOps",
+      "prerequisites": ["Linux"],
+      "difficulty": 3,
+      "estimated_hours": 25
+    },
+    "Kubernetes": {
+      "category": "DevOps",
+      "prerequisites": ["Docker"],
+      "difficulty": 5,
+      "estimated_hours": 60
+    },
+    "CI/CD": {
+      "category": "DevOps",
+      "prerequisites": ["Git", "Docker"],
+      "difficulty": 3,
+      "estimated_hours": 20
+    },
+    "AWS": {
+      "category": "Cloud",
+      "prerequisites": ["Linux"],
+      "difficulty": 4,
+      "estimated_hours": 60
+    },
+    "GCP": {
+      "category": "Cloud",
+      "prerequisites": ["Linux"],
+      "difficulty": 4,
+      "estimated_hours": 60
+    },
+    "Terraform": {
+      "category": "DevOps",
+      "prerequisites": ["AWS", "Linux"],
+      "difficulty": 4,
+      "estimated_hours": 30
+    },
+
+    "React": {
+      "category": "Frontend",
+      "prerequisites": ["JavaScript"],
+      "difficulty": 3,
+      "estimated_hours": 40
+    },
+    "TypeScript": {
+      "category": "Frontend",
+      "prerequisites": ["JavaScript"],
+      "difficulty": 3,
+      "estimated_hours": 30
+    },
+    "Next.js": {
+      "category": "Frontend",
+      "prerequisites": ["React"],
+      "difficulty": 4,
+      "estimated_hours": 40
+    }
+  }
+}
